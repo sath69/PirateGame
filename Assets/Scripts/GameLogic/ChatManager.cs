@@ -5,7 +5,7 @@ using Unity.Netcode;
 
 public class ChatManager : NetworkBehaviour
 {
-    //TO:DO Add rate limiter to prevent overhead.
+    //TO:DO Add rate limiter to prevent rate limiting and excessive server overload.
     private string username;
     public TMP_InputField chatBox;
     public GameObject chatPanel;
